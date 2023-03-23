@@ -1,0 +1,54 @@
+body {
+  background-color: #f1f0ec;
+  min-height: 100px;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-nav > li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.navbar-nav > li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.featurednews {
+  padding-top: 2rem;
+}
+
+.getbook {
+  padding-top: 2rem;
+}
+.community {
+  padding: 2rem;
+  background-color: #93410b;
+}
+
+.tnf {
+  padding: 1.6rem;
+}
+
+#fn {
+  padding: 1rem;
+}
+
+.newsletter {
+  padding-top: 2rem;
+}
+.footer {
+  padding: 2rem;
+  background-color: #fff8e7;
+}
+.footer p,
+small,
+a:link {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding-bottom: 0;
+}
