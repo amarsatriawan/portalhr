@@ -28,8 +28,43 @@ body {
   background-color: #ffe2a7;
 }
 
+.gb > h6 > span {
+  background-color: #fff2d3;
+  color: #93410b;
+  padding: 10px;
+}
+
+.gb > h5 > a {
+  color: #93410b;
+}
+
+.cg {
+  background-color: #ffff;
+  color: black;
+  padding: 7px;
+}
+
+.carrer {
+  background-color: #a8fbfe;
+  color: #083c78;
+  font-size: 10px;
+}
+
+.je {
+  font-size: 12px;
+}
+.advance {
+  background-color: #e3fcbb;
+  color: #246f10;
+  font-size: 10px;
+}
+
 .pp {
   max-height: 52px;
+}
+
+.by {
+  font-size: 12px;
 }
 
 .featurednews {
