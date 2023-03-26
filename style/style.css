@@ -14,6 +14,13 @@ body {
   margin-right: 5px;
 }
 
+.navbar-nav > li > a :active {
+  color: #ff9924;
+}
+.navbar-nav > li > a:hover {
+  color: #ff9924;
+}
+
 .btn-primer {
   background-color: #ff9924;
   color: #ffff;
