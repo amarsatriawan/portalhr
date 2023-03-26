@@ -2,6 +2,7 @@ body {
   background-color: #f1f0ec;
   min-height: 100px;
   font-family: "Inter", sans-serif;
+  margin-top: 20px;
 }
 
 .navbar-nav > li {
@@ -13,8 +14,22 @@ body {
   margin-right: 5px;
 }
 
+.btn-primer {
+  background-color: #ff9924;
+  color: #ffff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 .hero {
   padding: 2rem;
+}
+
+.wnh > p {
+  background-color: #ffe2a7;
+}
+
+.pp {
+  max-height: 52px;
 }
 
 .featurednews {
