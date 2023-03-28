@@ -5,6 +5,42 @@ body {
   margin-top: 20px;
 }
 
+.heading-1 {
+  font-size: 64px;
+}
+
+.heading-2 {
+  font-size: 48px;
+}
+
+.heading-3 {
+  font-size: 40px;
+}
+
+.heading-4 {
+  font-size: 32px;
+}
+
+.heading-5 {
+  font-size: 24px;
+}
+
+.heading-6 {
+  font-size: 20px;
+}
+
+.teks-body {
+  font-size: 16px;
+}
+
+.teks-subtitlte {
+  font-size: 12px;
+}
+
+.teks-caption {
+  font-size: 10px;
+}
+
 .navbar-nav > li {
   padding-left: 5px;
   padding-right: 5px;
@@ -14,23 +50,36 @@ body {
   margin-right: 5px;
 }
 
-.navbar-nav > li > a :active {
+.navbar-nav > li > a:hover {
   color: #ff9924;
 }
-.navbar-nav > li > a:hover {
+
+.navbar-nav > li > a > .active {
   color: #ff9924;
 }
 
 .btn-primer {
   background-color: #ff9924;
   color: #ffff;
-  padding-right: 20px;
-  padding-left: 20px;
+  font-weight: light;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.btn-primer:hover {
+  background-color: #ffff;
+  color: #ff9924;
+  font-weight: light;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .hero {
   padding: 2rem;
 }
 
+.hn {
+  padding: 542px;
+}
 .wnh > p {
   background-color: #ffe2a7;
 }
@@ -81,13 +130,32 @@ body {
 .getbook {
   padding-top: 2rem;
 }
+
 .community {
   padding: 2rem;
-  background-color: #93410b;
+  position: center;
+  background-image: url("../image/bg-thread.png");
+  background-size: cover;
+  height: 125vh;
+  width: 100%;
 }
 
+/* .video {
+  padding: 2rem;
+  position: center;
+  background-image: url("../image/bg-thread.png");
+  background-size: cover;
+  height: 88vh;
+  width: 100%;
+} */
+
 .tnf {
-  padding: 4rem;
+  margin-top: 50px;
+}
+
+.nf {
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 #fn {

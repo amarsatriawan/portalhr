@@ -65,12 +65,55 @@
         <!-- headline -->
         <div class="row">
           <div class="col-md-7 ">
-            <div class="card text-bg-dark border-0 mb-3 bg-image" style="background-color: rgba(0, 0, 0, 0.3)">
-              <img src="image/headline.png" class="card-img bg-image"  alt="headline" style="background-color: rgba(0, 0, 0, 0.3) "/>
-              <div class="card-img-overlay d-flex align-items-end ">
-                <h2 class="card-text pe-5">Why Work Hour Flexibility Is Here to Stay</h2>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="image/img-headline.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-flex align-items-center justify-content-center flex-column ">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/img-headline2.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/img-headline3.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+
+            <!-- <div class="card text-bg-dark border-0 mb-3 bg-image" style="background-color: rgba(0, 0, 0, 0.3)">
+              <img src="image/headline.png" class="card-img bg-image"  alt="headline" />
+              <div class="card-img-overlay d-flex justify-content-center flex-column text-center p-5 hn" style="background-color: rgba(0, 0, 0, 0.3) ">
+                <h2 class="headline-2">Pursue Your Purpose Start Now</h2>
+                <p class="teks-body fw-light">Get ready for new insights, memberships, and consulting for your first HR job with these tools and resources.</p>
+                <button type="button" class="btn btn-primer mx-auto ">Get Started</button>
+
+
+              </div>
+            </div> -->
           </div>
           <div class="col-md-5 mt-2">
             <div class="row g-0 bg-light position-relative mb-3 rounded-3">
@@ -232,6 +275,18 @@
     </section>
     <!-- end featured news-->
 
+
+    <!-- section video -->
+        <!-- Hero section-->
+
+    
+
+
+
+    <!-- End Section Video -->
+
+
+
     <!-- getbook section-->
     <section class="getbook">
       <div class="container">
@@ -255,8 +310,9 @@
 
     <!-- end get book-->
 
-    <section class="community">
-      <div class="container">
+    
+      <div class="container-md">
+        <section class="community rounded-2 bg-image mb-3">
         <!-- Thread -->
         <div class="thread ">
           <div class="row  mb-3">
@@ -396,40 +452,17 @@
         </div>
         </div>
         </div>
+      </section>
       </div>
-    </section>
+   
     <!-- end community -->
 
     <!-- newsfeed section -->
     <section class="tnf">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3 mb-3">
-              <!-- Trending Tags -->
-              <div class="trendingtags">
-                <div class="row mb-3">
-                  <div class="col">
-                    <h4>Trending Tags</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <div class="card border-0 " style="width: 15rem;">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item m-2"><h5>1. #HR</h5></li>
-                        <li class="list-group-item m-2"><h5>2. #community</h5></li>
-                        <li class="list-group-item m-2"><h5>3. #events</h5> </li>
-                        <li class="list-group-item m-2"><h5>4. #2023</h5></li>
-                        <li class="list-group-item m-2"><h5>5. #news</h5></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- end Trending Tags -->
-          </div>
-
-          <div class="col-md-9">
+        <div class="row nf mt-2">
+    
+          <div class="col-sm-12">
             <!-- news feed -->
         <div class="newsfeed">
           <div class="row">
@@ -531,16 +564,16 @@
 
     <!-- newsletter section-->
     <section class="newsletter">
-      <div class="container">
+      <div class="container-sm">
 
         <div class="row g-0 bg-light position-relative rounded-3 mb-3" style="
         background-image: url('image/bgnl.png');      ">
           
-          <div class="col-md-6 p-4 ps-md-5 mt-3">
+          <div class="col-md-6 p-4 ps-md-5 mt-3 pe-5">
             <h3 class="mt-2 mb-3">How to Accelerate your Career? 
               Get daily updated news from us</h3>
               <form>
-                <div class="mb-3">
+                <div class="mb-3 pe-5">
                   <input type="email" class="form-control" placeholder="Your Email Address" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                <button type="submit" class="btn btn-primer">Subscribe Newsletter</button>
